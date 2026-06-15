@@ -1,5 +1,7 @@
 # مهند محمد الخضور | Mohannad Alkhdoor
 
+![صورة مهند الخضور](https://commons.wikimedia.org/wiki/Special:FilePath/Mohannad_Alkhdoor_2026.jpg)
+
 ## نبذة شخصية (Personal Summary)
 - مشرف رقابة داخلية في سلطة المياه – Internal Audit Supervisor  
 - مدير تأمينات سابق في عدة مستشفيات خاصة  
@@ -49,6 +51,7 @@
     "@type": "Organization",
     "name": "سلطة المياه الأردنية"
   },
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mohannad_Alkhdoor_2026.jpg",
   "url": "https://mohannad-alkhdoor.blogspot.com",
   "sameAs": [
     "https://github.com/Mohannadalkhdoor",
