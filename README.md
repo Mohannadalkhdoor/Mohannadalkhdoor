@@ -1,4 +1,4 @@
-# مهند محمد الخضور | Mohannad Alkhdoor
+# مهند محمد الخضور
 
 ![صورة مهند الخضور](https://commons.wikimedia.org/wiki/Special:FilePath/Mohannad_Alkhdoor_2026.jpg)
 
