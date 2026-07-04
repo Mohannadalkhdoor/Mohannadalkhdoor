@@ -25,6 +25,44 @@
 - [Wikidata – الهوية المعرفية](https://www.wikidata.org/wiki/Q139604923)  
 - [Bio.site – الهوية الرقمية الموحدة](https://bio.site/alkhdoor)  
 
+## المهارات | Skills
+- **Insurance & Internal Audit** – خبرة متقدمة في إدارة التأمينات والرقابة الداخلية  
+- **Medical Audit & Risk Analysis** – تدقيق طبّي وتحليل المخاطر الصحية  
+- **Team Leadership & Administrative Management** – قيادة الفرق والإدارة الإدارية  
+- **Digital Identity Management** – إدارة الهوية الرقمية وتصميم البروفايل  
+- **Analytical Writing** – كتابة تحليلية عن القيادة والتحولات الإدارية  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "مهند محمد الخضور",
+  "alternateName": "أبو زينة",
+  "birthDate": "1987-09-08",
+  "jobTitle": "مشرف رقابة داخلية",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "سلطة المياه الأردنية"
+  },
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mohannad_Alkhdoor_2026.jpg",
+  "url": "https://mohannad-alkhdoor.blogspot.com",
+  "sameAs": [
+    "https://github.com/Mohannadalkhdoor",
+    "https://www.linkedin.com/in/mohannad-alkhdoor",
+    "https://www.facebook.com/mohannad.alkhdoor",
+    "https://www.wikidata.org/wiki/Q139604923",
+    "https://bio.site/alkhdoor"
+  ]
+}
+</script>
+
+## الروابط الرسمية | Official Links
+- [GitHub – المشاريع والهوية الرقمية](https://github.com/Mohannadalkhdoor)  
+- [LinkedIn – الملف المهني](https://www.linkedin.com/in/mohannad-alkhdoor)  
+- [Facebook – الصفحة الشخصية](https://www.facebook.com/mohannad.alkhdoor)  
+- [Wikidata – الهوية المعرفية](https://www.wikidata.org/wiki/Q139604923)  
+- [Bio.site – الهوية الرقمية الموحدة](https://bio.site/alkhdoor)  
+
 ## الهدف | Objective
 توحيد الهوية الرقمية عبر المنصات المختلفة، وتعزيز المصداقية والظهور في نتائج البحث على جوجل.
 
