@@ -42,27 +42,12 @@
 ```html
 <script type="application/ld+json">
 {
-  "@context": "[https://schema.org](https://schema.org)",
+  "@context": "https://schema.org",
   "@type": "Person",
   "name": "مهند محمد الخضور",
   "alternateName": "أبو زينة",
   "birthDate": "1987-09-08",
   "jobTitle": "مشرف رقابة داخلية",
-  "worksFor": {
-    "@type": "Organization",
-    "name": "سلطة المياه الأردنية"
-  },
-  "image": "[https://commons.wikimedia.org/wiki/Special:FilePath/Mohannad_Alkhdoor_2026.jpg](https://commons.wikimedia.org/wiki/Special:FilePath/Mohannad_Alkhdoor_2026.jpg)",
-  "url": "[https://mohannad-alkhdoor.blogspot.com](https://mohannad-alkhdoor.blogspot.com)",
-  "sameAs": [
-    "[https://github.com/Mohannadalkhdoor](https://github.com/Mohannadalkhdoor)",
-    "[https://www.linkedin.com/in/mohannad-alkhdoor](https://www.linkedin.com/in/mohannad-alkhdoor)",
-    "[https://www.facebook.com/mohannad.alkhdoor](https://www.facebook.com/mohannad.alkhdoor)",
-    "[https://www.wikidata.org/wiki/Q139604923](https://www.wikidata.org/wiki/Q139604923)",
-    "[https://bio.site/alkhdoor](https://bio.site/alkhdoor)"
-  ]
-}
-</script>
   "worksFor": {
     "@type": "Organization",
     "name": "سلطة المياه الأردنية"
