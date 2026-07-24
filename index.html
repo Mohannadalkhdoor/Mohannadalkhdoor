@@ -3,64 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مهند الخضور - الهوية الرقمية</title>
+    <title>مهند محمد الخضور - الهوية الرقمية والملف المهني</title>
     <style>
+        :root {
+            --primary: #1e293b;
+            --accent: #0284c7;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text: #334155;
+            --border: #e2e8f0;
+        }
         body {
-            font-family: system-ui, -apple-system, sans-serif;
-            background-color: #f4f6f8;
-            color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
             margin: 0;
             padding: 20px;
-            box-sizing: border-box;
+            line-height: 1.7;
         }
-        .card {
-            background: #ffffff;
-            padding: 30px;
+        .container {
+            max-width: 750px;
+            margin: 0 auto;
+            background: var(--card-bg);
             border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            padding: 30px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border);
+        }
+        .header {
             text-align: center;
-            max-width: 450px;
-            width: 100%;
-        }
-        h1 {
-            margin-bottom: 10px;
-            color: #1a252f;
-            font-size: 24px;
-        }
-        p {
-            color: #555;
-            font-size: 15px;
-            line-height: 1.6;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 20px;
             margin-bottom: 25px;
         }
-        .btn {
-            display: block;
-            width: 100%;
-            padding: 12px 0;
-            margin: 10px 0;
-            background-color: #0066cc;
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-            font-weight: bold;
-            transition: background 0.3s;
+        .header h1 {
+            color: var(--primary);
+            font-size: 28px;
+            margin: 0 0 15px 0;
         }
-        .btn:hover {
-            background-color: #004b99;
+        .profile-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            margin-top: 10px;
+        }
+        .section-title {
+            color: var(--primary);
+            font-size: 20px;
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 5px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        ul {
+            list-style-type: square;
+            padding-right: 20px;
+            margin: 0;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .links-list li {
+            margin-bottom: 10px;
         }
     </style>
 </head>
 <body>
-    <div class="card">
-        <h1>مهند الخضور</h1>
-        <p>خبير الرقابة والتدقيق الداخلي وإدارة التأمينات الصحية | صاحب مدونة مهند الخضور للمذكرات المهنية والتقارير الاستراتيجية.</p>
-        <a href="https://mohannad-alkhdoor.blogspot.com" class="btn">زيارة المدونة الرسمية</a>
-        <a href="https://bio.site/alkhdoor" class="btn" style="background-color: #2d3748;">بطاقة التعريف الرقمية</a>
+
+<div class="container">
+
+    <div class="header">
+        <h1>مهند محمد الخضور</h1>
+        <!-- صورة الملف الشخصي -->
+        <img src="https://raw.githubusercontent.com/mohannadalkhdoor/mohannadalkhdoor.github.io/main/Mohannad%20Alkhdoor%202026.jpg" alt="مهند الخضور" class="profile-img" onerror="this.style.display='none'">
     </div>
+
+    <div class="section">
+        <h2 class="section-title">نبذة شخصية - Personal Summary</h2>
+        <ul>
+            <li>مشرف رقابة داخلية في سلطة المياه - Internal Audit Supervisor</li>
+            <li>مدير تأمينات سابق في عدة مستشفيات خاصة</li>
+            <li>خبرة في التأمينات الطبية والتدقيق الداخلي</li>
+            <li>مهتم بالصحة والتغذية والكتابة التحليلية عن القيادة والإدارة</li>
+            <li>مهتم باقتناء وقيادة الشاحنات الأمريكية القوية، وتحديداً "دوج رام 1500"</li>
+            <li>تاريخ الميلاد: 8 أيلول 1987</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">المدونة الإلكترونية - Official Blog</h2>
+        <p>✍️ أكتب مقالات تحليلية ومحتوى متخصص عبر مدونتي الرسمية:<br>
+        👉 <a href="https://mohannad-alkhdoor.blogspot.com" target="_blank">مدونة مهند الخضور | مذكرات مهنية وتقارير استراتيجية</a></p>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">الروابط الرسمية - Official Links</h2>
+        <ul class="links-list">
+            <li>🔹 <a href="https://github.com/mohannadalkhdoor" target="_blank">GitHub - المشاريع والهوية الرقمية</a></li>
+            <li>🔹 <a href="https://linkedin.com/in/mohannad-alkhdoor" target="_blank">LinkedIn - الملف المهني</a></li>
+            <li>🔹 <a href="https://facebook.com/mohannad.alkhdoor" target="_blank">Facebook - الصفحة الشخصية</a></li>
+            <li>🔹 <a href="https://www.wikidata.org/wiki/Q139604923" target="_blank">Wikidata - الهوية المعرفية</a></li>
+            <li>🔹 <a href="https://bio.site/alkhdoor" target="_blank">Bio.site - الهوية الرقمية الموحدة</a></li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">المهارات - Skills</h2>
+        <ul>
+            <li><strong>Insurance & Internal Audit</strong> - خبرة متقدمة في إدارة التأمينات والرقابة الداخلية</li>
+            <li><strong>Medical Audit & Risk Analysis</strong> - تدقيق طبي وتحليل المخاطر الصحية</li>
+            <li><strong>Team Leadership & Administrative Management</strong> - قيادة الفرق والإدارة الإدارية والتحولات الإدارية</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">الخبرات العملية - Professional Experience</h2>
+        <ul>
+            <li><strong>مدير التأمينات ورئيس المناوبين الإداريين</strong> - المستشفى الأردني الفينلندي الحديث (2021-2025)</li>
+            <li><strong>دائرة التأمينات والتدقيق الطبي</strong> - مستشفى ابن الهيثم (2009-2020)</li>
+        </ul>
+    </div>
+
+</div>
+
 </body>
 </html>
-
